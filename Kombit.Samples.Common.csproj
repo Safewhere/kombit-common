@@ -60,6 +60,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Base64UrlEncoder.cs" />
     <Compile Include="Binding\Data\FrameworkFault.cs" />
     <Compile Include="Binding\CustomizeIdStrIssuedSecurityTokenParameters.cs" />
     <Compile Include="BrowserJsonFormatter.cs" />
