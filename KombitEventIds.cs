@@ -15,43 +15,20 @@
     public static class KombitEventIds
     {
         /// <summary>
-        ///     Common runtime error
+        /// No connection found error 
         /// </summary>
-        public const int CommonRuntimeError = 100;
-
+        public const int ConnectionNotFoundError = 5002;
         /// <summary>
-        ///     Connection resolution error
+        /// Authentication failed error
         /// </summary>
-        public const int ConnectionResolutionError = 101;
-
+        public const int AuthenticationFailedError = 5607;
         /// <summary>
-        ///     Malformed request error
+        /// Authorization failed error
         /// </summary>
-        public const int MalformedRequestError = 103;
-
+        public const int AuthorizationFailedError = 5611;
         /// <summary>
-        ///     Path resolution error
+        /// Bad request error: such as missing cvr, ...
         /// </summary>
-        public const int PathResolutionError = 104;
-
-        /// <summary>
-        ///     Audit user request error
-        /// </summary>
-        public const int AuditUserRequestError = 106;
-
-        /// <summary>
-        ///     Not supported error
-        /// </summary>
-        public const int NotSupportedException = 110;
-
-        /// <summary>
-        ///     Configuration error
-        /// </summary>
-        public const int ConfigurationError = 111;
-
-        /// <summary>
-        ///     Database error
-        /// </summary>
-        public const int DatabaseError = 130;
+        public const int BadRequestError = 5015;
     }
 }
