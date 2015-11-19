@@ -23,10 +23,6 @@
         /// </summary>
         public const int AuthenticationFailedError = 5607;
         /// <summary>
-        /// Authorization failed error
-        /// </summary>
-        public const int AuthorizationFailedError = 5611;
-        /// <summary>
         /// Bad request error: such as missing cvr, ...
         /// </summary>
         public const int BadRequestError = 5015;
