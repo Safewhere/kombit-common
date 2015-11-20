@@ -25,6 +25,6 @@
         /// <summary>
         /// Bad request error: such as missing cvr, ...
         /// </summary>
-        public const int BadRequestError = 5015;
+        public const int CvrIsEmptyError = 5015;
     }
 }

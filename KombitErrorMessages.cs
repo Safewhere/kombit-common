@@ -8,16 +8,16 @@
         /// <summary>
         ///     Connection not found error message
         /// </summary>
-        public const string ConnectionNotFoundError = "ConnectionNotFoundError";
+        public const string ConnectionNotFoundError = "Path resolution: no connection '{0}' found";
 
         /// <summary>
         ///     Authentication failed error message
         /// </summary>
-        public const string AuthenticationFailedError = "AuthenticationFailedError";
+        public const string AuthenticationFailedError = "No mapped user exists for thumbprint '{0}'";
 
         /// <summary>
         ///     Bad request error message
         /// </summary>
-        public const string BadRequestError = "BadRequestError";
+        public const string CvrIsEmptyError = "It is expected that the received STR must contain a CVR claim. Please check to make sure it includes the CVR claim.";
     }
 }
