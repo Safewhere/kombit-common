@@ -6,43 +6,18 @@
     public static class KombitErrorMessages
     {
         /// <summary>
-        ///     Common runtime error message
+        ///     Connection not found error message
         /// </summary>
-        public const string CommonRuntimeError = "CommonRuntimeError";
+        public const string ConnectionNotFoundError = "Path resolution: no connection '{0}' found";
 
         /// <summary>
-        ///     Connection resolution message
+        ///     Authentication failed error message
         /// </summary>
-        public const string ConnectionResolutionError = "ConnectionResolutionError";
+        public const string AuthenticationFailedError = "No mapped user exists for thumbprint '{0}'";
 
         /// <summary>
-        ///     Malformed request error message
+        ///     Bad request error message
         /// </summary>
-        public const string MalformedRequestError = "MalformedRequestError";
-
-        /// <summary>
-        ///     Path resolution error message
-        /// </summary>
-        public const string PathResolutionError = "PathResolutionError";
-
-        /// <summary>
-        ///     Audit user request error message
-        /// </summary>
-        public const string AuditUserRequestError = "AuditUserRequestError";
-
-        /// <summary>
-        ///     Not supported error message
-        /// </summary>
-        public const string NotSupportedException = "NotSupportedException";
-
-        /// <summary>
-        ///     Configuration error message
-        /// </summary>
-        public const string ConfigurationError = "ConfigurationError";
-
-        /// <summary>
-        ///     Database error message
-        /// </summary>
-        public const string DatabaseError = "DatabaseError";
+        public const string CvrIsEmptyError = "It is expected that the received STR must contain a CVR claim. Please check to make sure it includes the CVR claim.";
     }
 }

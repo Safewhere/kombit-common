@@ -82,7 +82,7 @@ namespace Kombit.Samples.Common.Binding
 
             var messageEncodingBindingElement = new TextMessageEncodingBindingElement()
             {
-                MessageVersion = MessageVersion.Soap12WSAddressing10
+                MessageVersion = MessageVersion.Soap11WSAddressing10
             };
             return messageEncodingBindingElement;
         }
