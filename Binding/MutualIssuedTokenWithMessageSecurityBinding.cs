@@ -38,7 +38,7 @@ namespace Kombit.Samples.Common.Binding
         private static System.ServiceModel.Channels.Binding CreateBinding(TransportBindingElement transport)
         {
             TextMessageEncodingBindingElement encodingBindingElement =
-                new TextMessageEncodingBindingElement(MessageVersion.Soap11WSAddressing10, Encoding.UTF8);
+                new TextMessageEncodingBindingElement(MessageVersion.Soap12WSAddressing10, Encoding.UTF8);
 
             var messageSecurity = new AsymmetricSecurityBindingElement();
 
