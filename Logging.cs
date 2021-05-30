@@ -15,6 +15,6 @@ namespace Kombit.Samples.Common
         ///     A singleton instance of a logger
         /// </summary>
         public static readonly ILogger Instance =
-            new LoggerConfiguration().ReadAppSettings().WriteTo.RollingFile("Logs\\log-{Date}.txt").CreateLogger();
+            new LoggerConfiguration().ReadFrom.AppSettings().WriteTo.File("Logs\\log-{Date}.txt", rollingInterval: RollingInterval.Day, rollOnFileSizeLimit: true).CreateLogger();
     }
 }
